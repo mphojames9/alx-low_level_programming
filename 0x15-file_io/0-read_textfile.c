@@ -8,7 +8,7 @@
 * Return: w- for actual number of text that was read
 * when the function fails, 0 will be returned
 */
-ssize_t text_file_reader(const char *filename, size_t letters)
+ssize_t read_textfile(const char *filename, size_t letters)
 {
 char *buf;
 ssize_t fd;
