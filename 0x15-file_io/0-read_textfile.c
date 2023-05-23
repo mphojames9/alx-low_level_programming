@@ -24,4 +24,3 @@ free(buf);
 close(fd);
 return (w);
 }
-
