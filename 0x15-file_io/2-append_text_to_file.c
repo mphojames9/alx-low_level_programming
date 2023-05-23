@@ -19,10 +19,10 @@ for (len = 0; text_content[len];)
 len++;
 }
 i = open(filename, O_WRONLY | O_APPEND);
-q = write(o, text_content, len);
-if (o == -1 || w == -1)
+q = write(i, text_content, len);
+if (i == -1 || w == -1)
 return (-1);
-close(o);
+close(i);
 return (1);
 }
 
