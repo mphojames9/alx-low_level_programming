@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdlib.h>
 /**
-* text_file_reader - it will read the text to the STDOUT.
+* read_textfile - it will read the text to the STDOUT.
 *
 * @filename: file test being read
 * @letters: quantity of text to read
