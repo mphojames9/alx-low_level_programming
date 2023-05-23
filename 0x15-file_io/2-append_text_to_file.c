@@ -20,9 +20,10 @@ len++;
 }
 o = open(filename, O_WRONLY | O_APPEND);
 w = write(o, text_content, len);
-if (i == -1 || w == -1)
+if (o == -1 || w == -1)
 return (-1);
 close(o);
 return (1);
 }
+
 
