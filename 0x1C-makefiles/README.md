@@ -1,25 +1,20 @@
-# Makefiles
-<p align="center">
-<img
-	src="https://res.cloudinary.com/practicaldev/image/fetch/s--oZclJqRB--/c_imagga_scale,f_auto,fl_progressive,h_900,q_auto,w_1600/https://dev-to-uploads.s3.amazonaws.com/i/0t3fdxw9v0iy0aw44fil.png"
-	alt="makefiles">
-</p>
-Project done during **Full Stack Software Engineering studies** at **ALX | Holberton School**. It aims to learn what are makefiles, when, why and how to use them (with variables, explicit and implicit rules).
+# 0x1C. C - Makefiles
 
-## Technologies
-* Scripts written in Bash 4.3.11(1)
-* C files are compiled using `gcc 4.8.4`
-* Tested on Ubuntu 14.04 LTS
-* Version of `make`: GNU Make 3.81
+## General
+* What are make, Makefiles
+* When, why and how to use Makefiles
+* What are rules and how to set and use them
+* What are explicit and implicit rules
+* What are the most common / useful rules
+* What are variables and how to set and use them
 
-## Files
+## Requirements
 
-| Filename | Description |
-| -------- | ----------- |
-| `0-Makefile` | Builds an executable with `all` rule |
-| `1-Makefile` | Builds an executable specifying a compiler and source files (`CC` and `SRC` variables) |
-| `2-Makefile` | Builds an executable using `CC`, `SRC`, `OBJ` and `NAME` variables |
-| `3-Makefile` | Builds an executable using `clean`, `oclean`, `fclean` and `re` rules, and `CC`, `SRC`, `OBJ`, `NAME` and `RM` variables |
-| `4-Makefile` | Builds an executable using `clean`, `oclean`, `fclean` and `re` rules, and `CC`, `SRC`, `OBJ`, `NAME`, `RM` and `CFLAGS` variables  |
-| `5-island_perimeter.py` | Function that returns the perimeter of an island described in `grid` list |
-| `100-Makefile` | Complete Makefile with all of the variables and rules previously mentioned |
+### General
+* Allowed editors: vi, vim, emacs
+* OS: Ubuntu 20.04 LTS
+* Version of gcc: 9.3.0
+* Version of make: GNU Make 4.2.1
+* All your files should end with a new line
+* A README.md file, at the root of the folder of the project, is mandatory
+
